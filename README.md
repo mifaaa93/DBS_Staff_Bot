@@ -60,7 +60,7 @@ exit
 sudo apt update && sudo apt install -y python3 python3-venv git
 
 # дальнейшее — от имени dbs (sudo -u dbs -s), в его директории:
-git clone <repo-url> /home/dbs/dbs-staff-bot
+git clone https://github.com/mifaaa93/DBS_Staff_Bot.git /home/dbs/dbs-staff-bot
 cd /home/dbs/dbs-staff-bot
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
