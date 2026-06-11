@@ -1,0 +1,35 @@
+# Секреты и БД
+.env
+.env.copy
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Тесты/кэш
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
