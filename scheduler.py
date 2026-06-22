@@ -13,8 +13,8 @@ log = logging.getLogger(__name__)
 # Сопоставление ключей расписания с функциями отправки и человекочитаемым именем
 # (имя попадает в логи APScheduler вместо служебного «_wrap.<locals>.job»).
 _JOBS = {
-    "trash":          (notifications.send_trash,          "Мусор (пн)"),
-    "trash_after":    (notifications.send_trash_after,    "Завоз баков (вт)"),
+    "trash":          (notifications.send_trash,          "Мусор (вт)"),
+    "trash_after":    (notifications.send_trash_after,    "Завоз баков (ср)"),
     "social_morning": (notifications.send_social_morning, "Социалка — утро (ср)"),
     "social_pre":     (notifications.send_social_pre,     "Социалка — напоминание (ср)"),
     "social_start":   (notifications.send_social_start,   "Социалка — старт (ср)"),
