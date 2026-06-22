@@ -5,6 +5,9 @@
 *.sqlite
 *.sqlite3
 
+# Миграции БД
+alembic/versions/
+
 # Логи
 logs/
 *.log

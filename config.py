@@ -36,8 +36,8 @@ DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite:///dbs_bot.db").strip()
 # Расписание триггеров. Каждый элемент — аргументы для APScheduler CronTrigger.
 # Правьте день недели / час / минуту здесь.
 SCHEDULE: dict[str, dict] = {
-    "trash":         {"day_of_week": "mon", "hour": 17, "minute": 45},
-    "trash_after":    {"day_of_week": "tue", "hour": 14, "minute": 0},
+    "trash":         {"day_of_week": "tue", "hour": 17, "minute": 45},
+    "trash_after":    {"day_of_week": "wed", "hour": 14, "minute": 0},
     "social_morning": {"day_of_week": "wed", "hour": 9,  "minute": 0},
     "social_pre":     {"day_of_week": "wed", "hour": 16, "minute": 45},
     "social_start":   {"day_of_week": "wed", "hour": 17, "minute": 0},
